@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="demo01:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60c2698a-623e-447c-acdf-3765869afa44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/bean/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/bean/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/dao/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/dao/GradeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/dao/UsersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/dao/impl/GradeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/dao/impl/UsersDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/service/GradeDaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/service/impl/GradeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/service/impl/UsersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/web/GetStudentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/web/LoginOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soar/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Educational/student/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Educational/student/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Educational/student/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Educational/student/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/FileIco/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/FileIco/doc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bg_date.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bg_inputbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bg_py.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bg_title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bginput.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bgleftbot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bgleftli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bgrbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bgrbot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bgtable.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/bgtop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/datetop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/b1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/b2_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/b3_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/b4_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/bg_jh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/bg_lc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/bg_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/bg_nav2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/bgnav.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/bt_bzr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/bt_cw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/bt_jw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/bt_ks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/h_pro_jt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/h_pro_jt1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/ico1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/ico2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/lc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/lc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/lc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/leftbgbt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/leftbgbt2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/default/leftdhbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/dian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/ico_wd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/index/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/index/title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/kao_top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/nav_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/sns_top_nav_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/title1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/title2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/tjdan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/topbgright.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/zyk/fxbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Student/zyk/sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/btn_bgs.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/bg_jrkc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/bg_radio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/bg_time.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/bgbg_out.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/bgbt_hover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/biaoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/biji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/fenshu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/icon06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/icon07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/icon08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/icon09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/jiuchuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/jsbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/jsdian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/line04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/ren.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/time_line_arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/title1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/ks/txt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/left_arrow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/right_arrow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/Base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/Common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/changeOption.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/Skins/Blue/images/jbox-button2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/Skins/Blue/images/jbox-close1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/Skins/Blue/images/jbox-content-loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/Skins/Blue/images/jbox-icons-ie6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/Skins/Blue/images/jbox-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/Skins/Blue/images/jbox-loading1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/Skins/Blue/images/jbox-title-icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/Skins/Blue/jbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/i18n/jquery.jBox-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/jquery-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jBox/jquery.jBox-2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/jquery-1.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Script/rl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Style/StudentStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Style/history.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Style/ks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/mine.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/dtree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/dtree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/example01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/base.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/cd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/empty.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/folderopen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/globe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/imgfolder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/join.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/joinbottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/minus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/minusbottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/musicfolder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/nolines_minus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/nolines_plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/page.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/plusbottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/question.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dtree/img/trash.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/admin_p.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bt_login.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/header_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/header_left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/header_right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/login_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/login_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/login_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/login_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/login_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/login_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/menu_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/menu_bt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/menu_icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/shadow_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/title_bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/title_bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_all_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_bottom_c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_bottom_l.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_bottom_r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_botton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_login_name.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_login_password.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_login_validatecode.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_main_c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_main_l.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_main_r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_top_c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_top_l.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user_top_r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student_manage/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student_manage/src/main/webapp/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student_manage/src/main/webapp/if.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student_manage/src/main/webapp/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student_manage/src/main/webapp/right.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manage/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/bean/Grade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/bean/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/bean/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/dao/DBUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/dao/GradeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/dao/StudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/dao/UsersDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/dao/impl/GradeDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/dao/impl/StudentDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/dao/impl/UsersDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/service/GradeDaoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/service/UsersService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/service/impl/GradeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/service/impl/UsersServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/java/com/wv/student_manage/web/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/webapp/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/webapp/if.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/if.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manage/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/webapp/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manage/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manage/src/main/webapp/right.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/right.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2ONRfmWnLRNPo6s1xvp5adxqveX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/test/java_test/JavaWebDemo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java web\demo01\src" />
+      <recent name="E:\java web\demo01\src\main\webapp\WEB-INF" />
+      <recent name="E:\java web\demo01\src\main\java\com\soar\service\" />
+      <recent name="E:\java web\demo01\src\main\java\com\soar\service" />
+      <recent name="E:\java web\demo01\src\main\java\com\soar\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java web\demo01\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soar.dao" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.87" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.87" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="demo01:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f0e3e4b8-3ff8-4311-b8d0-89c51c45e0e9" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="11565" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="demo01:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60c2698a-623e-447c-acdf-3765869afa44" name="Changes" comment="" />
+      <created>1681399160342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681399160342</updated>
+      <workItem from="1681399161669" duration="8698000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
